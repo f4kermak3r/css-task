@@ -1,0 +1,38 @@
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
+.card-image-container {
+  display: flex;
+  color: white;
+}
+
+.card-scroll-title {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.card-scroll-object {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 35px;
+}
+
+.card-scroll-body {
+  margin-left: 60px;
+  color: white;
+  font-size: 13px;
+}
+
+.bottom-border {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid gray;
+  width: 100%;
+}
