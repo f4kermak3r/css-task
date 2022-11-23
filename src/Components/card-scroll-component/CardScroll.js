@@ -1,6 +1,6 @@
 import "./CardScroll.css";
 
-export default function CardScroll({ title, body }) {
+export default function CardScroll() {
   return (
     <>
       <div className="card-scroll-object">
