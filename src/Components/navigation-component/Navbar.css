@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 .nav {
   background-color: #2d2d2d;
   color: white;
@@ -20,13 +16,8 @@ body {
   justify-content: center;
 }
 
-.nav ul li {
-  justify-content: center;
-}
-
 .nav a {
   color: inherit;
-  gap: 2rem;
   padding: 0 1rem;
   text-decoration: none;
 }
@@ -81,12 +72,9 @@ body {
   }
 
   .burger-menu {
-    margin-bottom: auto;
-    height: 100%;
     width: 30px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     cursor: pointer;
   }
 
@@ -124,7 +112,6 @@ body {
   }
 
   .menu-links a {
-    list-style: none;
     text-decoration: none;
     font-size: 25px;
     color: white;
